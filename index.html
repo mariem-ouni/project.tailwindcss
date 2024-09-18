@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <!-- Navigation Bar -->
+    <nav class="bg-white p-4 shadow">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center">
+                <div>
+                    <a href="#" class="text-2xl font-bold text-gray-800">My Blog</a>
+                </div>
+                <div>
+                    <a href="#about" class="text-gray-700 mx-4">About</a>
+                    <a href="#posts" class="text-gray-700 mx-4">Blog Posts</a>
+                    <a href="#photos" class="text-gray-700 mx-4">Photos</a>
+                    <a href="#contact" class="text-gray-700 mx-4">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-cover bg-center h-64" style="background-image: url('image2.jpg');">
+        <div class="h-full flex justify-center items-center bg-black bg-opacity-50">
+            <h1 class="text-white text-5xl font-bold">Welcome to My Blog</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto mt-10 p-6">
+        <!-- About Section -->
+        <section id="about" class="mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">About Me</h2>
+            <p class="text-gray-700 text-lg leading-relaxed">
+                Hello! I'm a passionate writer and developer, sharing thoughts on technology, life, and creativity.
+            </p>
+        </section>
+
+        <!-- Blog Posts Section -->
+        <section id="posts" class="mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Recent Blog Posts</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post Card -->
+                <article class="bg-white shadow rounded overflow-hidden">
+                    <img src="image3.jpeg" alt="Post Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Blog Post Title</h3>
+                        <p class="text-gray-700 mt-2">
+                            In absolute terms, e-commerce, that is to say electronic commerce, simply refers to the buying and selling of products and services on the Internet. However, the term is often used to describe all steps and actions taken by a seller for the purpose of selling products directly to consumers.
+                        </p>
+                        <a href="#" class="inline-block mt-4 text-blue-500 hover:underline">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section id="photos" class="mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4 text-center">Photo Gallery</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Photo Card -->
+                <div class="bg-white shadow rounded overflow-hidden">
+                    <img src="https://pelostudio-storyblok-assets.b-cdn.net/f/242055/9000x5500/d905d72aaf/comment-faire-un-budget-previsionnel-formes-et-modalites.png/m/1200x750/smart/filters:quality(70)" alt="Photo 1" class="w-full h-64 object-cover hover:opacity-90">
+                    <h1 class="text-xl font-bold mb-4 text-center">How to make a forecast budget: concrete methods to know</h1>
+                    <p class="text-xl text-gray-700 text-center">Various moments in the life of the company require visibility and therefore the establishment of financial forecasts. So, how to go about it in practice? How to make a forecast budget? Several solutions exist. It all depends on your objectives and the use of established budget tables. We present to you the different forms of forecast budget, from the cash flow table to the rolling forecast, including business plan data, the annual budget and the landing.</p>
+                    <button class="text-blue-500 inline-block mt-4 hover:underline p-2 rounded-xl">Read More</button>
+                </div>
+
+                <div class="bg-white shadow rounded overflow-hidden">
+                    <img src="https://pelostudio-storyblok-assets.b-cdn.net/f/242055/7200x4400/fac871cc86/tirer-sur-le-delai-fournisseur-une-erreur-pour-4-raisons.png/m/1920x1200/smart/filters:quality(70)" alt="Photo 2" class="w-full h-64 object-cover hover:opacity-90">
+                    <h1 class="text-xl font-bold mb-4 text-center ">Stretching supplier deadlines: 4 reasons to avoid this classic mistake</h1>
+                    <p class="text-xl text-gray-700 text-center">You know perfectly well, money is the sinews of war. So, sometimes you might be tempted to use the supplier deadline to pay later than agreed. But, have you asked yourself if it is really a good idea for your online business? 
+
+                        In reality, playing with supplier credit is a mistake that can be costly for the operation. We have identified all the negative consequences for your business. They can accumulate and call into question the functioning of your supply chain, the loyalty of your customers, as well as your margins. This very gloomy picture may, however, turn out to be a sad reality.</p>
+                        <button class="text-blue-500 inline-block mt-4 hover:underline p-2 rounded-xl">Read More</button>
+                </div>
+
+                <div class="bg-white shadow rounded overflow-hidden">
+                    <img src="https://pelostudio-storyblok-assets.b-cdn.net/f/242055/7200x4400/b6e78da75e/tunnel-de-paiement-5-techniques-pour-l-optimiser-1.png/m/1920x1200/smart/filters:quality(70)" alt="Photo 3" class="w-full h-64 object-cover hover:opacity-90">
+                    <h1 class="text-xl font-bold mb-4 text-center">Payment tunnel: 5 techniques to optimize it</h1>
+                     <p class="text-xl text-gray-700 text-center">In e-commerce, each step of the purchasing process is crucial. Delivery costs that are too high, a lack of product information or unintuitive navigation can lead Internet users to abandon their cart. 
+
+                        The payment funnel of a site is no exception to the rule, and must be worked in such a way as to convert as many visitors as possible into buyers: from the choice of payment methods to acceptance of the transaction. 
+                        
+                        Payplug, the French omnichannel payment solution, provides you with 5 techniques to offer your customers a smooth, simple and secure payment process.</p>
+                        <button class="text-blue-500 inline-block mt-4 hover:underline p-2 rounded-xl">Read More</button>
+                </div>
+
+                <!-- Add more photos as needed -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Contact Me</h2>
+            <p class="text-gray-700 text-lg">Feel free to reach out via email: <a href="mailto:you@example.com" class="text-blue-500 hover:underline">you@example.com</a></p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-6 text-center">
+        <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

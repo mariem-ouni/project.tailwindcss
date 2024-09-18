@@ -1,0 +1,19 @@
+/* styles.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Custom Styles for Blog */
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+img {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}
+
